@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <style>
+        body {
+            font-family: "Roboto Mono", monospace;
+            text-align: center;
+            background-image: url("https://img.odcdn.com.br/wp-content/uploads/2023/03/lua.jpg");
+            background-color: #000000;
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .page-title {
+            color: #ffffff;
+            margin: 0 0 5px;
+        }
+        
+        .page-subtitle {
+            color: #ffffff;
+            margin-top: 5px;
+        }
+        
+        body > img {
+            margin: 0 10px;
+        }
+        
+        img {
+            mix-blend-mode: multiply;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            DIE FOR YOU
+        </h1>
+        <img alt="">
+    </div>
+
+    <!-- Adicione seu código JavaScript aqui -->
+    <script>
+        var listaMangas = [
+    "https://w7.pngwing.com/pngs/441/938/png-transparent-earth-apollo-program-light-full-moon-moon-atmosphere-monochrome-sphere.png"
+  ];
+  
+  var listaNomes = [
+    "Sou péssimo com palavras; Estou encontrando maneiras de articular o sentimento que estou passando; Usando a música para me expressar Porque é difícil para mim comunicar o que penso sozinho; O fato de que estou me esforçando para isso; Mostrar o quanto eu me importo com você; Porque eu te amo, sim; E eu sei que você vale a pena, mas ainda estou inseguro; Não posso te perder, então me forço a superar meus problemas; Mas querida, saiba que não estou culpando você; Só não me culpe também; Minhas ações já te deixaram triste; Eu já fiz você chorar; Isso me mata por dentro; Essa minha insegurança ainda vai me foder; Eu vou superar isso a qualquer custo; Eu nunca vou fazer você chorar de novo; Eu nunca vou te deixar triste de novo; Eu te garanto isso meu bem; Porque eu quero ser bom para você; Eu serei bom para você; Porque eu te amo"
+  ];
+  
+  var i = 0;
+  while (i < listaMangas.length) {
+    document.write("<img src=" + listaMangas[i] + ">");
+    document.write("<p style='color: #ffffff;'>" + listaNomes[i] + "</p>");
+    document.write("</a>");
+    i++;
+  }  
+    </script>
+</body>
+</html>
